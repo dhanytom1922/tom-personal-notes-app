@@ -7,7 +7,7 @@ import { getInitialData } from "./utils/index";
 class NotesApp extends React.Component {
   state = {
     notes: getInitialData(),
-    querySearch: '',
+    querySearch: "",
   };
 
   onAddNoteEventHandler = ({ title, body }) => {
@@ -66,6 +66,5 @@ class NotesApp extends React.Component {
     );
   }
 }
-
 
 export default NotesApp;

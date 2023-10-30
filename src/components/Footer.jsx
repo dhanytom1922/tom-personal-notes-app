@@ -5,10 +5,7 @@ const Footer = () => {
     <div className="note-app__footer">
       <center>
         Copyright &#169; 2023{" "}
-        <a
-          className="link"
-          target="_blank"
-        >
+        <a className="link" target="_blank">
           Dicoding x IDCamp Submission
         </a>{" "}
       </center>
